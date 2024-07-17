@@ -1,0 +1,104 @@
+
+body {
+    margin: middle;
+    font-family: monospace;
+    background-color: plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ } 
+   
+ /*Another style body*/
+ /* body {
+   margin: middle;
+   font-family: monospace;
+   height: 99vh;
+   background: linear-gradient(135deg, #6504B5, purple);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}  */
+ 
+ .logo{
+    padding: 4rem 0;
+ }
+
+ .logo h2{
+   font-size: 3rem;
+   font-weight: bold;
+   color: purple;
+}
+
+.logo h2 span {
+   color: #6504B5;
+}
+
+ .logo p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: purple;
+ }
+
+#selectBreed {
+   background-color: white;
+   font-size: 1.3rem;
+   cursor: pointer;
+}
+
+#breed-collection {
+   display: flex
+}
+
+.card {
+   align-items: left;
+   background: #FFFF;
+   padding: 1rem;
+   text-align: center;
+   border: 7px solid #6504B5;
+   border-radius: 1rem;
+   width: 20rem;
+   height: 46rem;
+   margin: 1rem 2rem;
+   overflow: hidden;
+}
+
+.card:hover {
+   box-shadow: 0 2px 5px 0;
+}
+
+.card-img{
+   width: auto;
+   height: auto;
+   padding: 0;
+   overflow: hidden;
+   border-radius: .5em;
+}
+
+.card-img > img{
+   display: block;
+   width: 100%;
+   /* aspect-ratio: 16/9; */
+   object-fit: cover;
+   object-position: center;
+}
+
+button{
+   color: white;
+   font-size: small;
+   background: #6504B5;
+   border: AA7FC6;
+   font-size: 0.8rem;
+   padding: .5em, .75em;
+   border-radius: .25em;
+   cursor: pointer;
+}
+
+.hide {
+   display: none
+}
+
+
+
+
