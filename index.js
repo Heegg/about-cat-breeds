@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         catOPtion.value = catObject.id
         catOPtion.innerText = catObject.name
 
-        // console.log(catObject)
         selectBreed.append(catOPtion)
 
     }) 
