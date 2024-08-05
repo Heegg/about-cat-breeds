@@ -8,18 +8,6 @@ body {
     justify-content: center;
     flex-direction: column;
  } 
-   
- /*Another style body*/
- /* body {
-   margin: middle;
-   font-family: monospace;
-   height: 99vh;
-   background: linear-gradient(135deg, #6504B5, purple);
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}  */
  
  .logo{
     padding: 4rem 0;
@@ -44,7 +32,6 @@ body {
 #selectBreed {
    background-color: white;
    font-size: 1.3rem;
-   cursor: pointer;
 }
 
 #breed-collection {

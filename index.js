@@ -41,7 +41,7 @@ selectBreed.addEventListener("change", (e) => {
     `
     const cardCollection = document.getElementById("breed-collection")
     cardCollection.append(card)
-
+    
     const deleteBtn = document.createElement("button")
     deleteBtn.addEventListener('click', () => {
         card.remove()
