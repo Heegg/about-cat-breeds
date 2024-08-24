@@ -3,9 +3,21 @@ const selectBreed = document.querySelector('#selectBreed')
 document.addEventListener('DOMContentLoaded', () => {
 
     fetch('https://api.thecatapi.com/v1/breeds')
-   .then(res => res.json())
+   .then(res => {
+    if (!res.ok) {
+        throw new err('Network respose was not ok. Please try again!')
+    }
+    return res.json()
+   })
    .then(catArray => {
     catObjects = catArray
+    
+    const defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.disabled = true;
+    defaultOption.selected = true;
+    defaultOption.textContent = "Please select";
+    selectBreed.appendChild(defaultOption);
 
     catArray.forEach(catObject => {
         const catOPtion = document.createElement("option")
@@ -13,10 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
         catOPtion.innerText = catObject.name
 
         selectBreed.append(catOPtion)
-
     }) 
    })
-   .catch(err => console.log(err))
+   .catch(err => console.log('Error fetching cat breeds. Please try again!',err))
 })
 
 
@@ -49,4 +60,5 @@ selectBreed.addEventListener("change", (e) => {
     deleteBtn.innerText = 'Delete'
     card.append(deleteBtn)
 })
+
 

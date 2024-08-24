@@ -1,112 +1,115 @@
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: monospace, Arial, sans-serif;
-    background-color: plum;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
- } 
- 
- .container {
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 0 20px;
-   text-align: center;
+   margin: 0;
+   padding: 0;
+   font-family: monospace, Arial, sans-serif;
+   background-color: plum;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   box-sizing: border-box;
+   cursor: url('images/paw32.png'), auto;
+} 
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
- .logo{
-    padding: 4rem 0;
- }
+.logo{
+   padding: 4rem 0;
+}
 
- .logo h2{
-   font-size: 2.5rem;
-   font-weight: bold;
-   margin: 20px 0;
-   color: purple;
-   padding: 1rem 0;
+.logo h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: purple;
+  padding: 1rem 0;
 }
 
 .logo h2 span {
-   color: #6504B5;
+  font-size: 3.5rem;
+  color: #6504B5;
 }
 
- .logo p{
-    font-size: 1rem;
-    font-weight: bold;
-    color: purple;
- }
+.logo p{
+   font-size: 1rem;
+   font-weight: bold;
+   color: purple;
+}
 
- .select-wrapper {
-   margin: 20px 0;
+.select-wrapper {
+  margin: 20px 0;
 }
 
 #selectBreed {
-   background-color: white;
-   font-size: 1rem;
-   padding: 1px;
-   cursor: pointer;
+  background-color: pink;
+  font-size: 1rem;
+  padding: 1px;
+  cursor: url('images/paws32.png'), auto;
 }
 
 #breed-collection {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   gap: 20px;
-   padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px 0;
 }
 
 .card {
-   align-items: left;
-   background: #FFFF;
-   padding: 1rem;
-   text-align: center;
-   border: 7px solid #6504B5;
-   border-radius: 1rem;
-   width: 20rem;
-   height: 46rem;
-   margin: 1rem 2rem;
-   overflow: hidden;
+  align-items: left;
+  background: #FFFF;
+  padding: 1rem;
+  text-align: center;
+  border: 7px solid #6504B5;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 46rem;
+  margin: 1rem 2rem;
+  overflow: hidden;
 }
 
 .card:hover {
-   box-shadow: 0 2px 5px 0;
+  box-shadow: 0 2px 5px 0;
 }
 
 .card-img{
-   width: auto;
-   height: auto;
-   padding: 0;
-   overflow: hidden;
-   border-radius: .5em;
+  width: auto;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+  border-radius: .5em;
 }
 
 .card-img > img{
-   display: block;
-   width: 100%;
-   object-fit: cover;
-   object-position: center;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
+
 button{
-   color: white;
-   font-size: small;
-   background: #6504B5;
-   border: AA7FC6;
-   font-size: 0.8rem;
-   padding: .5em, .75em;
-   border-radius: .25em;
-   cursor: pointer;
+  color: white;
+  font-size: small;
+  background: #6504B5;
+  border: 2px solid #AA7FC6;
+  font-size: 0.8rem;
+  padding: .2em .7em;
+  border-radius: .25em;
+  cursor: url('images/paws32.png'), auto;
 }
 
 .hide {
-   display: none
+  display: none
 }
 
 #footer {
-   text-align: center;
-   margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
