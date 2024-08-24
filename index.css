@@ -44,10 +44,11 @@ body {
    margin: 20px 0;
 }
 
-
 #selectBreed {
    background-color: white;
-   font-size: 1.3rem;
+   font-size: 1rem;
+   padding: 1px;
+   cursor: pointer;
 }
 
 #breed-collection {
