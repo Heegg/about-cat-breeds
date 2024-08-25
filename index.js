@@ -40,14 +40,16 @@ selectBreed.addEventListener("change", (e) => {
     const card = document.createElement("div")
     card.className = 'card'
     card.innerHTML = `
-    <div class="card-img">
-        <img src = https://cdn2.thecatapi.com/images/${found.reference_image_id}.jpg>
+        <div class="card-img">
+            <img src = https://cdn2.thecatapi.com/images/${found.reference_image_id}.jpg>
         </div>
-        <h3 id="cat-breed">${found.name}</h3>
-        <li id="description"><b>Description:</b> ${found.description} </li>
-        <li id="temperament"><b>Temperament:</b> ${found.temperament} </li>
-        <li id="lifespan"><b>Life_span:</b> ${found.lifespan} </li>
-        <li id="origin"><b>Origin:</b> ${found.origin} </li>
+            <h3 id="cat-breed">${found.name}</h3>
+        <div class="cat-descriptions">
+            <p id="description"><b>Description:</b> ${found.description} </p>
+            <p id="temperament"><b>Temperament:</b> ${found.temperament} </p>
+            <p id="lifespan"><b>Life_span:</b> ${found.lifespan} </p>
+            <p id="origin"><b>Origin:</b> ${found.origin} </p>
+        </div>
     `
     const cardCollection = document.getElementById("breed-collection")
     cardCollection.append(card)

@@ -54,12 +54,14 @@ body {
 }
 
 #breed-collection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 20px 0;
-}
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 20px 0;
+ }
 
 .card {
   align-items: left;
@@ -68,23 +70,23 @@ body {
   text-align: center;
   border: 7px solid #6504B5;
   border-radius: 1rem;
-  width: 20rem;
-  height: 46rem;
+  width: 20em;
+  height: 30rem;
   margin: 1rem 2rem;
-  overflow: hidden;
+  overflow: scroll;
 }
-
+   
 .card:hover {
   box-shadow: 0 2px 5px 0;
+  transition: 0.5s
 }
 
 .card-img{
-  width: auto;
-  height: auto;
-  padding: 0;
-  overflow: hidden;
-  border-radius: .5em;
-}
+   width: auto;
+   height: auto;
+   /* overflow: hidden; */
+   border-radius: .5em;
+ }
 
 .card-img > img{
   display: block;
@@ -93,6 +95,9 @@ body {
   object-position: center;
 }
 
+.cat-descriptions {
+   text-align: left;
+}
 
 button{
   color: white;
