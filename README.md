@@ -12,7 +12,6 @@ The card includes:
 * Breed image
 * Description
 * Temperament
-* Lifespan 
 * Origin
 
 Users have the flexibility to display multiple breed cards simultaneously, allowing them to compare and choose their favorites. Additionally, users can easily add and delete cards to customize their viewing experience.

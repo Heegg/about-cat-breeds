@@ -47,7 +47,6 @@ selectBreed.addEventListener("change", (e) => {
         <div class="cat-descriptions">
             <p id="description"><b>Description:</b> <br/> ${found.description} </p>
             <p id="temperament"><b>Temperament:</b> <br/> ${found.temperament} </p>
-            <p id="lifespan"><b>Life_span:</b> <br/> ${found.lifespan} </p>
             <p id="origin"><b>Origin:</b> <br/> ${found.origin} </p>
         </div>
     `
