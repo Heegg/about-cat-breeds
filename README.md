@@ -5,7 +5,7 @@ This single-page application (SPA) leverages the public Cat API and utilizes thr
 
 ## Description
 
-The About Cat Breeds application is designed to provide users with a comprehensive list of cat breeds. Users can select a specific breed from a dropdown menu, and upon selection, a card displaying an image and detailed information about the chosen breed will appear on the webpage.
+The About Cat Breeds application is developed a dynamic web application feature that allows users to select and view detailed information about different cat breeds. The feature fetches breed data from an external API and displays the information in a user-friendly interface.
 
 The card includes:
 
