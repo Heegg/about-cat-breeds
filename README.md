@@ -37,6 +37,7 @@ Adobe color: https://color.adobe.com/create/color-wheel
 
 Free paw image for cursor: https://www.freepik.com/free-vector/paw-print-cartoon_128610006.htm#fromView=search&page=1&position=42&uuid=54dc409a-756d-477d-9b98-bc0d5f6abe85
 
+Free cat image: https://www.istockphoto.com/photo/cute-cats-on-light-grey-background-space-for-text-gm1464461807-497147550
 
 ## License
 

@@ -1,15 +1,23 @@
 
 body {
+   background-image: url('images/cats.png');  
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-size: 100vw;
    margin: 0;
    padding: 0;
    font-family: monospace, Arial, sans-serif;
-   background-color: plum;
+   background-color: grey;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
    box-sizing: border-box;
    cursor: url('images/paw32.png'), auto;
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
 } 
 
 .container {
@@ -47,8 +55,8 @@ body {
 }
 
 #selectBreed {
-  background-color: pink;
-  font-size: 1rem;
+  background-color: white;
+  font-size: .8rem;
   padding: 1px;
   cursor: url('images/paws32.png'), auto;
 }
@@ -67,24 +75,23 @@ body {
   align-items: left;
   background: #FFFF;
   text-align: center;
-  border: 7px solid #6504B5;
   border-radius: 1rem;
   padding: 0.5rem;
-  width: 20em;
-  height: 40rem;
+  width: 18em;
+  height: 35rem;
   margin: 1rem 2rem;
   overflow: auto;
 }
    
 .card:hover {
-  box-shadow: 0 3px 6px 0;
+  box-shadow: 0 5px 8px 0;
   transition: 0.5s
 }
 
-.card-img{
-   width: auto;
-   height: auto;
- }
+.img {
+  text-align: center;
+  height: 40px;
+}
 
 .card-img > img{
   display: block;
@@ -95,14 +102,14 @@ body {
 
 #cat-breed {
   font-weight: bolder;
-  font-size: large;
+  font-size: small;
   text-align: center;
 }
 
 .cat-descriptions {
   padding: 0.5rem;
   text-align: left;
-  font-size: small;
+  font-size: x-small;
 }
 
 p {
@@ -112,9 +119,9 @@ p {
 button{
    color: white;
    font-size: small;
-   background: #6504B5;
-   border: 2px solid #AA7FC6;
-   font-size: 0.8rem;
+   background: grey;
+   border: 3px solid #A8A8A8;
+   font-size: 0.6rem;
    padding: .2em .7em;
    border-radius: .25em;
    cursor: url('images/paws32.png');
