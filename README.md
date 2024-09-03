@@ -3,6 +3,11 @@
 This single-page application (SPA) leverages the public Cat API and utilizes three main front-end technologies: HTML, CSS, and JavaScript.
 
 
+## Video Demonstration
+
+[![Watch the video](https://img.youtube.com/vi/EmXjl8RP_p8/0.jpg)](https://youtu.be/EmXjl8RP_p8)
+
+
 ## Description
 
 The About Cat Breeds application is developed a dynamic web application feature that allows users to select and view detailed information about different cat breeds. The feature fetches breed data from an external API and displays the information in a user-friendly interface.
