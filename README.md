@@ -5,7 +5,7 @@ This single-page application (SPA) leverages the public Cat API and utilizes thr
 
 ## Video Demonstration
 
-[![Watch the video](https://img.youtube.com/vi/EmXjl8RP_p8/0.jpg)](https://youtu.be/EmXjl8RP_p8)
+[![Watch the video](https://img.youtube.com/vi/S7-hP5GqCe0/0.jpg)](https://youtu.be/S7-hP5GqCe0)
 
 
 ## Description
